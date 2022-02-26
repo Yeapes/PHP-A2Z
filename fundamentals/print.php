@@ -32,3 +32,4 @@ $lastName = "Yeapes";
 printf("[%s %s]\n", $firstName,$lastName); //Normal string representation
 printf("[%10s %s]\n", $firstName,$lastName); // Right justification string representation 
 printf("[%-10s %s]\n", $firstName,$lastName); // Left justification string representation 
+
