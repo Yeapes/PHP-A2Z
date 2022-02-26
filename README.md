@@ -6,4 +6,4 @@ This Repo will be all about PHP basic to advance practice chunk.
 
 <3
 
-## If you are new learner of PHP Greeting!
+## If you are new learner of PHP Greetings!
