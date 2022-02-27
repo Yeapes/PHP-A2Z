@@ -1,7 +1,6 @@
 <?php
 
 $a = 4;
-
 $b = $a++;
 
 echo "$a \n {$b} \n"; // print 5, 4
