@@ -8,3 +8,4 @@ $output = sprintf("He is student of %s department of %s",$university_name,$depar
 
 //Print with a simple strtupper function for show uppercase value 
 echo strtoupper($output);
+ 
