@@ -34,7 +34,7 @@ switch ($payment_method) {
         echo "{$payment_method} activated for this order!";
         break;
     
-    default:
+        default:
         echo "COD activated for this order!";
         break;
 }
