@@ -34,3 +34,16 @@ do{
 for($i = 10, $j = 1; $i > 0; $i--, $j++){
     echo $i.": $j"."\n";
 }
+
+
+//Print Factorial using for loop
+
+// example: 5 * 4 * 3 * 2 * 1
+
+$n = 3;
+$result = 1;
+for ($i = $n; $i > 1; $i--){
+    $result = $result * $i;
+}
+
+printf("Factorial of %d is %d", $n, $result);
