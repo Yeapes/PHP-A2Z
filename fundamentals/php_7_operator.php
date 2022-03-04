@@ -14,3 +14,15 @@ if ($check == 1){
 }else{
     echo "$x is less than $y";
 }
+
+
+echo PHP_EOL;
+//Null check
+
+$default = 21.3;
+
+$long = null;
+
+$lat = $long ?? $default;
+
+echo $lat;
