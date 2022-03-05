@@ -8,3 +8,13 @@ function isEven($n){
 
     return false;
 }
+
+
+//Get Factorial 
+function factorial(int $n){
+    $result = 1;
+    for ($i = $n; $i > 1; $i--){
+        $result = $result * $i;
+    }
+    return $result;
+}
