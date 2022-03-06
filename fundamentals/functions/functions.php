@@ -25,3 +25,17 @@ function factorial(int $n){
 function sum(int $x, int $y): int {
     return $x + $y;
 }
+
+
+// Unlimited argument recive
+
+function multiply(int ...$numbers): int {
+    
+    $result = 1;
+
+    for ($i = 0; $i < count($numbers); $i++){
+        $result = $result * $numbers[$i];
+    }
+    
+    return $result;
+}
