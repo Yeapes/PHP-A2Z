@@ -9,3 +9,7 @@ echo PHP_EOL;
 $fn = 0;
 $factorial_result = factorial($fn);
 echo "{$fn} factorial is {$factorial_result}";
+
+echo PHP_EOL;
+
+echo sum(12,12);
