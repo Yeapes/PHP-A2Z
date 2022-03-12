@@ -21,3 +21,11 @@ $ar = array(
 );
 
 print_r($ar);
+
+$ar3 = array(
+     array(1,22,12.3), 
+     array(1,22,12.3), 
+     array(1,22,12.3), 
+);
+
+print_r($ar3);
