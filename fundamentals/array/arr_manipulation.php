@@ -42,3 +42,11 @@ array_unshift($students,"Muktadir");
 for ($i = 0; $i < count($students); $i++){
     echo $students[$i]."\n";
 }
+
+
+$students = [
+    'Ashfaque',
+    'Rafi',
+    'Boishaki',
+    'Hridoy'
+];
