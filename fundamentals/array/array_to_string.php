@@ -10,5 +10,5 @@ $employees = [
 
 // $employee_string = join(', ', $employees);
 
-$employee_string = implode(', ',$employees);`
+$employee_string = implode(', ',$employees);
 echo $employee_string;  
