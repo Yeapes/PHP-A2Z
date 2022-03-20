@@ -29,3 +29,6 @@ $ar3 = array(
 );
 
 print_r($ar3);
+
+$a=array("A","Cat","Dog","A","Dog");
+print_r(array_count_values($a));
