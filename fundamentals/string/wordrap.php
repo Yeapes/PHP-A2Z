@@ -1,6 +1,6 @@
 <?php
 
-$string = "Lorem ipsum dolor sit ametaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa consectetur adipisicing elit. Maxime mollitia,
+$string = "Lorem ipsum dolor \n  sit ametaaaaaaaaaaaaaaaaaaaaaaaa \n aaaaaaaaaaaaaaaaaaaaaa consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
 numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
 optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
@@ -23,3 +23,8 @@ totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam
 quasi aliquam eligendi, placeat qui corporis!";
 
 echo wordwrap($string,26,"\n",true);
+
+
+//nltobr use for browser break
+
+echo nl2br($string);
