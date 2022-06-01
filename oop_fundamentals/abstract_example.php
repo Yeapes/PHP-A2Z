@@ -36,3 +36,6 @@ class Rectangle extends Shape{
 $rect = new Rectangle(10,10);
 
 echo $rect->getArea();
+
+
+// $shape = new Shape();
