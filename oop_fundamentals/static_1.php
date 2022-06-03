@@ -2,6 +2,7 @@
 <?php
 
 class ExampleStatic{
+    public static $name = "Test Name";
     static $goal;
     public static function setGoal($goal){
         self::$goal = $goal;
@@ -32,3 +33,4 @@ echo ExampleStatic::getGoal();
 
 echo PHP_EOL;
 DoSome::doSomething();
+echo ExampleStatic::$name;
