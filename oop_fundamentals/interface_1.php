@@ -29,8 +29,7 @@ class Cat implements Animal{
     }
      
 }
-
-
+ 
 $cat = new Cat();
 
 $cat->color("White & Black");
