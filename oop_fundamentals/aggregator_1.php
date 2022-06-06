@@ -1,6 +1,6 @@
 <?php
 
-class DistrictClass implements IteratorAggregate{
+class DistrictClass implements IteratorAggregate,Countable{
 
     private $districts;
 
@@ -23,6 +23,11 @@ class DistrictClass implements IteratorAggregate{
     {
         return new ArrayIterator($this->districts);
     }
+
+    function count(): int
+    {
+        return count($this->districts);
+    }
 }
 
 $districts = new DistrictClass;
@@ -34,3 +39,5 @@ $districts->setDistrict("Chittagong");
 foreach($districts as $district){
     echo $district."\n";
 }
+
+echo count($districts);
