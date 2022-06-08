@@ -29,17 +29,43 @@ class Bird{
         unset($this->parameters[$name]);
     }
 
+      //Getter method for parameters
+
     function __get($name)
     {
         return $this->parameters[$name];
     }
-    
+
+
+    //Setter method for parameters
     function __set($name, $value)
     {
         $this->parameters[$name] = $value;
     }
+
+    /**
+     * __call a magic method if we call a undefined method then it will automatically invoke
+     * 
+     */
+    public function __call($name, $arguments)
+    {
+        echo "Your method not defined {$name}";
+    }
+
+     /**
+     * __callStatic a magic method if we call a static undefined method then it will automatically invoke
+     * 
+     */
+    public static function __callStatic($name, $arguments)
+    {
+        echo "Undefined Static Method";
+    } 
 }
 
 $b = new Bird("Yellow","10 gm","10 meter per second");
 
 echo $b->weight;
+echo PHP_EOL;
+
+Bird::anything();
+$b->findany();
