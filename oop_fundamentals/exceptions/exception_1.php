@@ -16,7 +16,7 @@ class JobPost{
 try {
     //code...
     $j = new JobPost("Yeapes",17);
-} catch (\`Throwable` $th) {
+} catch (\Throwable $th) {
     //throw $th;
     echo $th->getMessage();
 }
