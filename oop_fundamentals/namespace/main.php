@@ -1,5 +1,5 @@
 <?php
-
+namespace Yamaha;
 use Yamaha\Honda;
 use Yamaha\Yamaha;
 
