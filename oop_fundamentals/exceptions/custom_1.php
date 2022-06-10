@@ -13,9 +13,8 @@ function throwException(){
  
 
 try {
-    //code...
-    throwException();
-   
+    
+    throwException(); 
 } catch (TestException $te) {
      echo "Test Exception";
 }catch(ExampleException $ee){
