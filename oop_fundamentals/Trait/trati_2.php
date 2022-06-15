@@ -16,7 +16,7 @@ class MyClass{
     }
 }
 
-echo MyClass::$name = "Yeapes";
+echo MyClass::$name = "Yeapes a";
 
 
 
