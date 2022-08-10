@@ -14,6 +14,7 @@ trait someFunction{
     }
 }
 
+//someExample Class
 class SomeExampleParent{
      
     public function greet(){

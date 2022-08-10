@@ -15,5 +15,5 @@ echo PHP_EOL;
 echo sum(12,12);
 
 echo PHP_EOL;
-
+//echo
 echo multiply(5,9);
