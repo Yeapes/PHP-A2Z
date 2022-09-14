@@ -40,5 +40,7 @@
 
 $data = new DataManager();
 $storage = new Storage("C:/xampp/htdocs/PHP-A2Z/oop_advance/test.txt",FILE_APPEND);
+$storage2 = new Storage("C:/xampp/htdocs/PHP-A2Z/oop_advance/test2.txt");
 
 $data->saveData($storage, "This is a test data and then append a data");
+$data->saveData($storage2, "This is a test2 data and then append a data");
