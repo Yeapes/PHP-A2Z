@@ -36,6 +36,14 @@ class Mp3File implements FileInterface{
     }
 }
 
+class HDFile implements FileInterface{
+
+    function displayFile()
+    {
+        //display HDFile file
+    }
+}
+
 class FileDisplayManager{
     function display(FileInterface $file){
         $file->displayFile();
@@ -48,5 +56,8 @@ $f = new FileDisplayManager();
 $image = new ImageFile();
 //Suppose this is another extension
 $mp3 = new Mp3File();
+//Suppose this is another extension
+$hd = new HDFile();
 $f->display($image);
 $f->display($mp3);
+$f->display($hd);
